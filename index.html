@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <title>Despegar Site</title>
+        <link rel="stylesheet" type="text/css" href="eva/eva.min.css">
+        <link rel="stylesheet" type="text/css" href="eva/eva-core.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header></header>
+        <main>
+          <div class="container">
+            <div class="searchbox-full-container">
+              <div class="eva-3-searchbox"> 
+                  <div class="eva-3-container">
+                    <div class="searchbox-container"> 
+                      <div class="options-flights-container eva-3-row">
+
+                          <div class="col -sm-12 -md-4">
+                            <div class="searchbox-title"> 
+                              <h3 class="eva-3-h3">Encontrá tu Vuelo</h3> 
+                            </div>
+                          </div>   
+                          <!-- sub-nav-->
+                          <div class="col -sm-12 -md-6 -eva-3-hide-medium-up margin-element">
+                            <div class="eva-3-sub-nav -eva-3-mb-lg">
+                                <div class="sub-nav-corners-container">
+                                  <div class="eva-3-nav-slider -sm -white -left -eva-3-shadow-line-hover sub-nav-arrow-first"><i class="nav-slider-icon eva-3-icon-arrow-left"></i></div>
+                                  <div class="eva-3-nav-slider -sm -white -right -eva-3-shadow-line-hover sub-nav-arrow-last"><i class="nav-slider-icon eva-3-icon-arrow-right"></i></div>
+                                  <div class="sub-nav-container">
+                                    <ul class="sub-nav-items-container margin-element bot-line">
+                                      <li class="sub-nav-item ">
+                                        <label class="sub-nav-label">Ida y vuelta</label>
+                                      </li>
+                                      <li class="sub-nav-item">
+                                          <label class="sub-nav-label">Solo ida</label>
+                                      </li>
+                                      <li class="sub-nav-item">
+                                          <label class="sub-nav-label">Multidestino</label>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col -sm-12 -md-6">
+                            <div class="eva-3-row -eva-3-center margin-element" >
+                              <!-- Tag-->
+                                <span class="eva-3-tag -icon tag-property"><span class="tag-text">+</span><i class="tag-icon-product eva-3-icon-hotel-bell"></i><span class="tag-text">Alojamiento</span></span>
+                                <span class="eva-3-tag -icon tag-property"><span class="tag-text">+</span><i class="tag-icon-product eva-3-icon-cars"></i><span class="tag-text">Auto</span></span> 
+                            </div>
+                          </div>
+                             <!-- Radio-button-->
+                          <div class="col -sm-12 -md-6 margin-element">
+                             <div class="buttons-radio-container -eva-3-hide-small">
+                              <span class="eva-3-radio">
+                                <label class="radio-label-container">
+                                  <input type="radio" name="eva-radio" class="radio-tag"><i class="radio-circle"></i>
+                                  <span class="tag-text">Ida y vuelta</span>
+                                </label>
+                              </span>
+                              <span class="eva-3-radio">
+                                  <label class="radio-label-container">
+                                    <input type="radio" name="eva-radio" class="radio-tag"><i class="radio-circle"></i>
+                                    <span class="tag-text">Solo ida</span>
+                                  </label>
+                              </span>
+                              <span class="eva-3-radio">
+                                  <label class="radio-label-container">
+                                    <input type="radio" name="eva-radio" class="radio-tag"><i class="radio-circle"></i>
+                                    <span class="tag-text">Multidestino</span>
+                                  </label>
+                              </span>
+                            </div>
+                          </div>  
+                      </div>
+                      
+                      <div class="eva-3-row -no-gutter"> 
+                        <div class="col -sm-12 -lg-3"> 
+                          <div class="searchbox-item-container"> 
+                            <label class="searchbox-label eva-3-label-form -lg">Origen</label> 
+                            <div class="eva-3-input -lg  -eva-3-mb-sm"> 
+                              <div class="input-container"> 
+                                <input type="text" placeholder="Ingresá una ciudad" id="eva-input" class="input-tag"/> 
+                              </div> 
+                            </div> 
+                          </div> 
+                        </div> 
+                        <div class="col -sm-12 -lg-3"> 
+                          <div class="searchbox-item-container"> 
+                            <label class="searchbox-label eva-3-label-form -lg">Destino</label> 
+                            <div class="eva-3-input -lg  -eva-3-mb-sm"> 
+                              <div class="input-container"> 
+                                <input type="text" placeholder="Ingresá una ciudad" id="eva-input" class="input-tag"/> 
+                              </div> 
+                            </div> 
+                          </div> 
+                        </div> 
+                        <div class="col -sm-12 -lg-6"> 
+                          <div class="eva-3-row -no-gutter"> 
+                            <div class="col -sm-12 -md-6"> 
+                              <div class="searchbox-item-container"> 
+                                <label class="searchbox-label eva-3-label-form -lg">Fechas</label> 
+                                <div class="-eva-3-mb-sm searchbox-date-container"> 
+                                  <div class="searchbox-two-items"> 
+                                    <div class="eva-3-input -lg  -icon-left searchbox-internal-input"> 
+                                      <div class="input-container"> 
+                                        <input type="text" placeholder="Ida" id="eva-input" class="input-tag -eva-3-no-radius-right"/><i class="input-icon eva-3-icon-calendar"></i> 
+                                      </div> 
+                                    </div> 
+                                  </div> 
+                                  <div class="searchbox-two-items"> 
+                                    <div class="eva-3-input -lg  -icon-left "> 
+                                      <div class="input-container"> 
+                                        <input type="text" placeholder="Vuelta" id="eva-input" class="input-tag -eva-3-no-radius-left"/><i class="input-icon eva-3-icon-calendar"></i> 
+                                      </div> 
+                                    </div> 
+                                  </div> 
+                                </div> 
+                                <div class="eva-3-checkbox "> 
+                                  <label class="checkbox-label"> 
+                                    <input type="checkbox" class="checkbox-tag"/><i class="checkbox-check eva-3-icon-checkmark"></i><span class="eva-3-label-form -sm searchbox-checkbox-label">Todavía no decidí las fechas</span> 
+                                  </label> 
+                                </div> 
+                              </div> 
+                            </div> 
+                            <div class="col -sm-12 -md-6 -lg-4"> 
+                              <div class="searchbox-item-container"> 
+                                <label class="searchbox-label eva-3-label-form -lg">Pasajeros y clase</label> 
+                                <div class="eva-3-row -no-gutter"> 
+                                  <div class="col -sm-12 -md-12"> 
+                                    <div class="eva-3-input -lg "> 
+                                      <div class="input-container"> 
+                                        <input type="text" placeholder="Placeholder" id="eva-input" class="input-tag"/> 
+                                      </div> 
+                                    </div> 
+                                  </div> 
+                                </div>
+                              </div> 
+                            </div>
+                            <div class="col -sm-12 -md-6 -lg-2"> 
+                              <div class="searchbox-item-action -eva-3-fr-small -eva-3-fr-medium"><a class="eva-3-btn -primary -lg -eva-3-fwidth-small"><em class="btn-text">Buscar</em></a></div> 
+                            </div>  
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </div>
+              </div> 
+          </div>
+        </main>
+
+        <footer>
+           
+        </footer>
+    </body>
+</html>

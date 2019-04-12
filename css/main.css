@@ -1,0 +1,40 @@
+
+.checkbox-label span{
+    text-transform: none;
+}
+
+.sub-nav-container div {
+    margin: auto;
+}
+
+.sub-nav-item {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around
+}
+
+.radio-label-container {
+    margin-right: 20px
+}
+
+.margin-element {
+    margin: 0 20px 16px 8px;
+}
+
+.tag-property {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: center
+    
+}
+
+@media (max-width: 768px){
+    .tags {
+        justify-content: flex-start;
+    }
+}
+.bot-line li {
+    border-bottom: 1px solid #eee
+}
