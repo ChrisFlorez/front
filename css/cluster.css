@@ -16,7 +16,7 @@
  .container-details {
      display: flex;
      justify-content: space-evenly;
-     font-size: 13px;
+     font-size: 12px;
      margin-top: 10px;
  }
 
@@ -43,5 +43,25 @@
     flex-direction: row;
 }  
 .airport-arrival {
-    margin-bottom: 3px;
+    margin-bottom: 2px;
+}
+.information-flight-container .airline-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.information-flight-container .airline-image {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.information-flight-container .airline-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-flight {
+    display: flex;
+    align-items: center;
 }
