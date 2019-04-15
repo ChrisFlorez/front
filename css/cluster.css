@@ -1,0 +1,28 @@
+.container-rating {
+   justify-content: space-evenly;
+}
+
+.airport-departure {
+    display: inline-flex;
+    border: 2px solid #888888;
+    border-radius: 1px
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-stars {
+    letter-spacing: -3px;
+}
+
+ .container-details {
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 12px;
+ }
+
+ .margin-element {
+    margin: 0 20px 16px 8px;
+}
