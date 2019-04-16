@@ -139,6 +139,24 @@
     font-size: 12px;
 }
 
+.bags-medium-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.bag-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bags-medium-up p {
+    display: flex;
+    justify-content: right;
+    padding-top: 16px;
+    font-size: 12px;
+}
+
 @media (min-width: 768px){
     .airline-container {
         white-space: nowrap;
