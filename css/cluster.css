@@ -1,6 +1,6 @@
 .airport-departure {
     display: inline-flex;
-    border: 2px solid #888888;
+    border: 1px solid #888888;
     border-radius: 1px
 }
 
@@ -92,7 +92,7 @@
     padding-left: 12px;
 }
 
-.title-trip {
+.airplane-container .title-trip {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,6 +105,40 @@
     padding-right: 12px;
 }
 
+.rating-md-up {
+    display: flex;
+    justify-content: left;
+}
+
+.flight-medium-header .airplane-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flight-medium-header .info-airplane-container .airplane-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flight-medium-header .airplane-container {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.aiport-medium-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.code p {
+    font-size: 16px;
+}
+
+.city p {
+    font-size: 12px;
+}
+
 @media (min-width: 768px){
     .airline-container {
         white-space: nowrap;
@@ -113,5 +147,28 @@
     .time {
         display: flex;
         align-items: center;
+        padding-top: 12px;
+
+    }
+    .type-flight p {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 25px;
+    }
+    .bags-duration-container i {
+        padding-top: 6px;
+    }
+    .bags-duration-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .flight-medium-header .flight-date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 12px;
+        font-size: 12px;
     }
 }
