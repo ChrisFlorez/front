@@ -54,6 +54,12 @@
 .information-flight-container .airline-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.airline-info-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .information-flight-container .airline-image {
@@ -67,9 +73,45 @@
     justify-content: center;
 }
 
-.button-flight {
+.itinerary-flight {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #eee;
     margin-bottom: 2px;
+}
+
+.airplane-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.info-airplane-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+.title-trip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+}
+.flight-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 12px;
+}
+
+@media (min-width: 768px){
+    .airline-container {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .time {
+        display: flex;
+        align-items: center;
+    }
 }
