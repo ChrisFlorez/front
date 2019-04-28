@@ -21,11 +21,18 @@
     margin: 0 20px 16px 8px;
 }
 
+.title-property {
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+    width: auto;
+}
+
 .tag-property {
     margin-left: 5px;
     margin-right: 5px;
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: center
     
 }
